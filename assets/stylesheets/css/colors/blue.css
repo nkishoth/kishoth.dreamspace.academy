@@ -1,0 +1,280 @@
+/*==========================================*/
+/*           Color Schemes
+/*==========================================*/
+/*==========================================*/
+/*            Global Elements
+/*==========================================*/
+a {
+  color: #00afd1;
+}
+a:hover {
+  color: #00afd1;
+}
+.section-title .title-icon-container .title-icon {
+  background: #00afd1;
+}
+.pagination-wrap .pagination li a {
+  color: #333333;
+}
+.pagination-wrap .pagination li a.active,
+.pagination-wrap .pagination li a:hover {
+  border-color: #00afd1;
+  background: #00afd1;
+}
+.title h2 {
+  color: #00afd1;
+}
+/*==========================================*/
+/*            Navbar Elements
+/*==========================================*/
+.navbar-inverse.scroll-fixed-navbar .navbar-nav li:hover a {
+  color: #00afd1;
+}
+.navbar-inverse.scroll-fixed-navbar .navbar-nav li.active a {
+  color: #00afd1;
+}
+.navbar-inverse.scroll-fixed-navbar .navbar-nav li.active a:hover {
+  color: #00afd1;
+}
+/*==========================================*/
+/*            Banner Elements
+/*==========================================*/
+.banner .banner-content .buttons .def-btn:hover {
+  color: #00afd1;
+  border-bottom: 1px solid #00afd1;
+}
+/*==========================================*/
+/*              About Elements
+/*==========================================*/
+.about .content .icon i {
+  color: #00afd1;
+}
+.about .center .slick-prev,
+.about .center .slick-next {
+  border: 1px solid #00afd1;
+}
+.about .center .slick-prev:hover,
+.about .center .slick-next:hover {
+  background: #00afd1;
+}
+.about .center .slick-prev:hover:before,
+.about .center .slick-next:hover:before {
+  color: #ffffff;
+}
+.about .center .slick-prev:before {
+  color: #00afd1;
+}
+.about .center .slick-next:before {
+  color: #00afd1;
+}
+.about .more ul a:hover {
+  color: #00afd1;
+}
+/*==========================================*/
+/*             Testimonial Elements
+/*==========================================*/
+.testimonial .carousel .carousel-control .control-circle:hover {
+  border: 1px solid #00afd1;
+}
+.testimonial .carousel .carousel-control .control-circle:hover .fa {
+  color: #00afd1;
+}
+/*==========================================*/
+/*             Counter Elements
+/*==========================================*/
+.counter h3 {
+  color: #00afd1;
+}
+/*==========================================*/
+/*             Portfolio Elements
+/*==========================================*/
+.portfolio .portfoliofilter a.current .filterbutton {
+  background: #00afd1;
+  border: 1px solid #00afd1;
+}
+.portfolio .portfoliofilter a:hover .filterbutton {
+  color: #00afd1;
+  border: 1px solid #00afd1;
+}
+.portfolio .portfoliocontent .content .overlay:hover {
+  background: rgba(0, 175, 209, 0.9);
+}
+/*==========================================*/
+/*             Why Me Elements
+/*==========================================*/
+.why-me .skills .skillbars .bar-container .meter {
+  background: #00afd1;
+}
+.why-me .skills .skillbars .bar-container .meter:after {
+  border-left: 20px solid #00afd1;
+}
+/*==========================================*/
+/*      Education & Employment Elements
+/*==========================================*/
+.timeline > li .timeline-icon {
+  background: #00afd1;
+}
+.timeline > li .timeline-label .place {
+  color: #00afd1;
+}
+/*==========================================*/
+/*        Pricing Elements
+/*==========================================*/
+.pricing .pricing-table .price {
+  background: #00afd1;
+}
+.pricing .pricing-table .list .def-btn {
+  border: 1px solid #00afd1;
+  border-color: #00afd1;
+  color: #00afd1;
+}
+.pricing .pricing-table .list .def-btn:hover {
+  background: #00afd1;
+}
+/*==========================================*/
+/*            Journal Elements
+/*==========================================*/
+.journal .journal-content .media .quote {
+  background: #00afd1;
+}
+.journal .journal-content .detail {
+  border-top: 5px solid #00afd1;
+}
+.journal .journal-content .detail .category {
+  background: #00afd1;
+}
+.journal .journal-content .detail .title h3 {
+  color: #00afd1;
+}
+.journal .journal-content .detail .title h3:hover {
+  color: #00849e;
+}
+.journal .journal-content .detail .info a:hover {
+  color: #00afd1;
+}
+/*==========================================*/
+/*             Map Elements
+/*==========================================*/
+.map .map-title {
+  background: #00afd1;
+}
+/*==========================================*/
+/*             Contact Elements
+/*==========================================*/
+.contact .footer-form .input-container .form-control:focus {
+  border: 1px solid #00afd1;
+}
+.contact .footer-form .textarea-container textarea:focus {
+  border: 1px solid #00afd1;
+}
+.contact .footer-form .button-container .def-btn {
+  border: 1px solid #00afd1;
+  color: #00afd1;
+}
+.contact .footer-form .button-container .def-btn:hover {
+  background: #00afd1;
+}
+/*==========================================*/
+/*            Footer Elements
+/*==========================================*/
+.footer {
+  border-top: 5px solid #00afd1;
+}
+.footer .top-text {
+  background: #00afd1;
+}
+.footer .links .social-icons .circle {
+  border: 1px solid #00afd1;
+}
+.footer .links .social-icons .circle .fa {
+  color: #00afd1;
+}
+.footer .links .social-icons .circle:hover {
+  background: #00afd1;
+}
+/*==========================================*/
+/*         Portfolio Single Elements
+/*==========================================*/
+.portfolio-single .carousel .carousel-control .control-button:hover {
+  background: #00afd1;
+}
+.portfolio-single .description .def-btn:hover {
+  background: #00afd1;
+}
+/*==========================================*/
+/*          Journal List Elements
+/*==========================================*/
+.journal-list .top-search .search-wrap input:focus {
+  border-color: #00afd1;
+}
+.journal-list .journal-content .detail {
+  border-top: 5px solid #00afd1;
+}
+.journal-list .journal-content .detail .category {
+  background: #00afd1;
+}
+.journal-list .journal-content .detail .title h3 {
+  color: #00afd1;
+}
+.journal-list .journal-content .detail .title h3:hover {
+  color: #00849e;
+}
+.journal-list .journal-content .detail .info a:hover {
+  color: #00afd1;
+}
+/*==========================================*/
+/*          Journal Single Elements
+/*==========================================*/
+.journal-detail .post-single .respond .row .form-control:focus {
+  border: 1px solid #00afd1;
+}
+.journal-detail .post-single .respond .row textarea:focus {
+  border: 1px solid #00afd1;
+}
+.journal-detail .post-single .respond .row .def-btn:hover {
+  background: #00afd1;
+}
+.journal-sidebar .title .shape {
+  background: #00afd1;
+}
+.journal-sidebar .content ul li:hover {
+  border-bottom: 1px solid #00afd1;
+}
+.journal-sidebar .content ul li:hover a {
+  color: #00afd1;
+}
+.journal-sidebar .search-post .content .search-wrap input:focus {
+  border-color: #00afd1;
+}
+.journal-sidebar .recent-post .content ul li span {
+  color: #00afd1;
+}
+.journal-sidebar .post-tags .tag-label:hover {
+  background: #00afd1;
+  border: 2px solid #00afd1;
+}
+/*==========================================*/
+/*          Responsive Settings
+/*==========================================*/
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-toggle {
+    border: 1px solid #00afd1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+  .navbar-inverse .navbar-toggle span.icon-bar {
+    background: #00afd1;
+  }
+  .navbar-inverse .navbar-toggle:focus,
+  .navbar-inverse .navbar-toggle:hover {
+    background: #00afd1;
+  }
+  .navbar-inverse .navbar-collapse ul.navbar-nav li.active {
+    color: #00afd1;
+  }
+  .navbar-inverse .navbar-collapse ul.navbar-nav li a:hover {
+    background: #00afd1;
+  }
+}

@@ -1,0 +1,619 @@
+/*==========================================*/
+/*           Color Schemes
+/*==========================================*/
+
+@maincolor: #f9bf3b;
+@textcolor: #333;
+@headingcolor: #555;
+@white: #ffffff;
+
+/*==========================================*/
+/*            Global Elements
+/*==========================================*/
+
+.border-radius(@val) {
+  border-radius: @val;
+  -webkit-border-radius: @val;
+  -moz-border-radius: @val;
+}
+
+.transition(@val){
+  -webkit-transition: all @val ease-in-out;
+  -moz-transition: all @val ease-in-out;
+  -ms-transition: all @val ease-in-out;
+  -o-transition: all @val ease-in-out;
+}
+
+.opacity(@val){
+  opacity: @val;
+  -webkit-opacity: @val;
+  -moz-opacity: @val;
+}
+
+.transform(@val){
+  transform: @val;
+  -webkit-transform: @val;
+  -moz-transform: @val;
+  -o-transform: @val;
+  -ms-transform: @val;
+}
+
+.box-shadow(@val){
+  box-shadow: @val;
+  -webkit-box-shadow: @val;
+  -moz-box-shadow: @val;
+}
+
+a {
+  color: @maincolor;
+
+  &:hover {
+    color: @maincolor;
+  }
+}
+
+
+.section-title {
+  .title-icon-container {
+    .title-icon {
+      background: @maincolor;
+    }
+  }
+}
+
+.pagination-wrap {
+
+  .pagination {
+    li {
+      a {
+        color: @textcolor;
+
+        &.active, &:hover {
+          border-color: @maincolor;
+          background: @maincolor;
+        }
+      }
+    }
+  }
+}
+
+.title {
+  h2 {
+    color: @maincolor;
+  }
+}
+
+
+/*==========================================*/
+/*            Navbar Elements
+/*==========================================*/
+
+.navbar-inverse {
+  &.scroll-fixed-navbar {
+    .navbar-nav {
+      li {
+        &:hover {
+          a {
+            color: @maincolor;
+          }
+        }
+
+        &.active {
+          a {
+            color: @maincolor;
+
+            &:hover {
+              color: @maincolor;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*==========================================*/
+/*            Banner Elements
+/*==========================================*/
+
+.banner {
+  .banner-content {
+    .buttons {    
+      .def-btn {
+        &:hover {
+          color: @maincolor;
+          border-bottom: 1px solid @maincolor;
+        }
+      }
+    }
+  }
+}
+
+/*==========================================*/
+/*              About Elements
+/*==========================================*/
+
+.about {
+  .content {
+    .icon {
+      i {
+        color: @maincolor;
+      }
+    }
+  }
+
+  .center {
+    .slick-prev, .slick-next {
+      border: 1px solid @maincolor;
+
+      &:hover {
+        background: @maincolor;
+        
+        &:before {
+          color: @white;
+        }
+      }
+    }
+
+    .slick-prev {   
+      &:before {
+        color: @maincolor;
+      }
+    }
+
+    .slick-next {   
+      &:before {
+        color: @maincolor;
+      }
+    }
+  }
+
+  .more {
+    ul {
+      a {
+        &:hover {
+          color: @maincolor;
+        }
+      }
+    }
+  }
+}
+
+/*==========================================*/
+/*             Testimonial Elements
+/*==========================================*/
+
+.testimonial {
+  .carousel {
+    .carousel-control {
+      .control-circle {
+        &:hover {
+          border: 1px solid @maincolor;
+
+          .fa {
+            color: @maincolor;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*==========================================*/
+/*             Counter Elements
+/*==========================================*/
+
+.counter {
+  h3 {
+    color: @maincolor;
+  }
+}
+
+/*==========================================*/
+/*             Portfolio Elements
+/*==========================================*/
+
+.portfolio {
+
+  .portfoliofilter {
+    a {
+      &.current {
+        .filterbutton {
+          background: @maincolor;
+          border: 1px solid @maincolor;
+        }
+      }
+
+      &:hover {
+        .filterbutton {
+          color: @maincolor;
+          border: 1px solid @maincolor;
+        }
+      }
+    }
+  }
+
+  .portfoliocontent {
+    .content {
+      .overlay {
+        &:hover {
+          background: rgba( red(@maincolor), green(@maincolor), blue(@maincolor), 0.9 );
+        }
+      }
+    }
+  }
+}
+
+/*==========================================*/
+/*             Why Me Elements
+/*==========================================*/
+
+.why-me {
+  .skills {
+    .skillbars {
+      .bar-container {
+        .meter {
+          background: @maincolor;
+
+          &:after {
+            border-left: 20px solid @maincolor;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/*==========================================*/
+/*      Education & Employment Elements
+/*==========================================*/
+
+
+.timeline>li {
+  .timeline-icon {
+    background: @maincolor;
+  }
+
+  .timeline-label {
+    .place {
+      color: @maincolor;
+    }
+  }
+}
+
+
+/*==========================================*/
+/*        Pricing Elements
+/*==========================================*/
+
+.pricing {
+  .pricing-table {
+    .price {
+      background: @maincolor;
+    }
+
+    .list {
+      .def-btn {
+        border: 1px solid @maincolor;
+        border-color: @maincolor;
+        color: @maincolor;
+
+        &:hover {
+          background: @maincolor;
+        }
+      }
+    }
+  }
+}
+
+
+/*==========================================*/
+/*            Journal Elements
+/*==========================================*/
+
+.journal {
+
+  .journal-content {
+    .media {
+      .quote {
+        background: @maincolor;
+      }
+    }
+
+    .detail {
+      border-top: 5px solid @maincolor;
+
+      .category {
+        background: @maincolor;
+      }
+
+      .title {
+        h3 {
+          color: @maincolor;
+
+          &:hover {
+            color: darken(@maincolor, 10%);
+          }
+        }
+      }
+
+      .info {
+        a {
+          &:hover {
+            color: @maincolor;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*==========================================*/
+/*             Map Elements
+/*==========================================*/
+
+.map {
+  .map-title {
+    background: @maincolor;
+  }
+}
+
+/*==========================================*/
+/*             Contact Elements
+/*==========================================*/
+.contact {
+
+  .footer-form {
+    .input-container {
+      .form-control {        
+        &:focus {
+          border: 1px solid @maincolor;
+        }
+      }
+    }
+
+    .textarea-container {
+      textarea {
+        &:focus {
+          border: 1px solid @maincolor;
+        }
+      }
+    }
+
+    .button-container {
+      .def-btn {
+        border: 1px solid @maincolor;
+        color: @maincolor;
+
+        &:hover {
+          background: @maincolor;
+        }
+      }
+    }
+  }
+
+}
+
+/*==========================================*/
+/*            Footer Elements
+/*==========================================*/
+
+.footer {
+  border-top: 5px solid @maincolor;
+  
+  .top-text {
+    background: @maincolor;
+  }
+
+  .links {
+    .social-icons {
+      .circle {
+        border: 1px solid @maincolor;
+
+        .fa {
+          color: @maincolor;
+        }
+
+        &:hover {
+          background: @maincolor;
+        }
+      }
+    }
+  }
+}
+
+/*==========================================*/
+/*         Portfolio Single Elements
+/*==========================================*/
+
+.portfolio-single {
+  .carousel {
+    .carousel-control {
+      .control-button {
+        &:hover {
+          background: @maincolor;
+        }
+      }
+    }
+  }
+
+  .description {
+    .def-btn {
+      &:hover {
+        background: @maincolor;
+      }
+    }
+  }
+}
+
+/*==========================================*/
+/*          Journal List Elements
+/*==========================================*/
+
+.journal-list {
+  .top-search {
+    .search-wrap {
+      input {
+        &:focus {
+          border-color: @maincolor;
+        }
+      }
+    }
+  }
+
+  .journal-content {
+    .detail {
+      border-top: 5px solid @maincolor;
+
+      .category {
+        background: @maincolor;
+      }
+
+      .title {
+        h3 {
+          color: @maincolor; 
+
+          &:hover {
+            color: darken(@maincolor, 10%);
+          }
+        }
+      }
+
+      .info {
+        a {
+          &:hover {
+            color: @maincolor;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*==========================================*/
+/*          Journal Single Elements
+/*==========================================*/
+
+
+.journal-detail {
+  .post-single {
+    .respond {
+      .row {
+        .form-control {
+          &:focus {
+            border: 1px solid @maincolor;
+          }
+        }
+
+        textarea {
+          &:focus {           
+            border: 1px solid @maincolor;
+          }
+        }
+      }
+
+      .row {
+        .def-btn {
+          &:hover {
+            background: @maincolor;            
+          }
+        }
+      }
+    }
+  }
+}
+
+.journal-sidebar {
+  
+  .title {
+    .shape {
+      background: @maincolor;
+    }
+  }
+
+  .content {
+    ul {
+      li {
+        &:hover {
+          border-bottom: 1px solid @maincolor;
+
+          a {
+            color: @maincolor;
+          }
+        }
+      }
+    }
+  }
+
+  .search-post {
+    .content {
+      .search-wrap {
+        input {
+          &:focus {
+            border-color: @maincolor;
+          }
+        }
+      }
+    }
+  }
+
+  .recent-post {
+    .content {
+      ul { 
+        li {
+          span {
+            color: @maincolor;
+          }
+        }
+      }
+    }
+  }
+
+  .post-tags {
+    .tag-label {
+      &:hover {
+        background: @maincolor;
+        border: 2px solid @maincolor;
+      }
+    }
+  }
+}
+
+
+/*==========================================*/
+/*          Responsive Settings
+/*==========================================*/
+
+@media (max-width: 767px){
+  .navbar-inverse {
+    .navbar-toggle {
+      border: 1px solid @maincolor;
+      .transition(0.3s);
+
+      span.icon-bar {
+        background: @maincolor;
+      }
+
+      &:focus, &:hover {
+        background: @maincolor;
+      }
+    }
+
+    .navbar-collapse {
+      ul.navbar-nav {
+        li {
+          &.active {
+            color: @maincolor;
+          }
+
+          a {
+            &:hover {
+              background: @maincolor;
+            }
+          }
+        }
+      }
+    }
+  }
+}
